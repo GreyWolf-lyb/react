@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.ant-menu-item-selected {
+    background: #ccc;
+}
+
+.ant-layout-header {
+    background: #F5F5F5;
+}
+
+.ant-layout-header img {
+    width: 132px;
+    height: 30px;
+}
+/* 样式左边 */
+.LoginContent {
+    width: 193px;
+    float: left;
+    margin-left: 1296px;
+    position: absolute;
+    top: 0;
+    height: 64px;
+}
+
+.LoginContent:hover {
+    background: #eee;
+    height: 64px;
+    width: 193px;
+    float: left;
+    margin-left: 1296px;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+
+.LoginContentName {
+    width: 13%;
+    height: 30px;
+    display: block;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.LoginContent img {
+    width: 28px;
+    height: 30px;
+}
+
+.Text {
+    width: 124px;
+    height: 30px;
+    display: block;
+    float: left;
+    margin-top: 19px;
+    margin-left: 10px;
+    line-height: 26px;
+}
+.section-wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+}
+.ant-layout{
+    overflow-y: auto;
+}
+.warp header {
+    height: 64px;
+    width: 100%;
+    background: white;
+    box-shadow: 0 2px 5px #ccc;
+}

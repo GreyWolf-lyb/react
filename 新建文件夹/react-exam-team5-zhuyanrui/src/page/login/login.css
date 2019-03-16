@@ -1,0 +1,93 @@
+html,
+body,
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+#root {
+    position: relative
+}
+
+.login-box {
+    position: absolute;
+    right: 10%;
+    top: 22%;
+    width: 25%;
+    height: 310px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.ant-row{
+    margin-bottom: 0;
+}
+.login-form-button {
+    width: 100%;
+}
+
+.Immediate-registration {
+    display: block;
+    text-align: center;
+}
+.login-img {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../images/login.png');
+    background-size: 100% 100%;
+    position: relative;
+}
+
+#root .login-form {
+    height: 318px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.login-form .ant-input {
+    height: 40px;
+}
+
+.login-form .ant-btn {
+    display: block;
+    width: 100%;
+    height: 40px;
+}
+
+.login-pwd {
+    display: flex;
+    justify-content: space-between;
+    margin-top:5px;
+}
+.ant-form-item{
+    width: 95%;
+    margin-left:10px;
+}
+
+.ant-form-item-control-wrapper{
+    margin-left:15px;
+    margin-top:20px;
+}
+
+element.style {
+    margin-bottom: 0;
+}
+
+.ant-form-item {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    list-style: none;
+    -webkit-font-feature-settings: 'tnum';
+    font-feature-settings: 'tnum', "tnum";
+    margin-bottom:0;
+    vertical-align: top;
+}

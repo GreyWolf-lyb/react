@@ -1,0 +1,1 @@
+.browse-right{display:flex;flex:1;height:100%;width:100%}.browse-right-box{width:100%;padding:20px 30px;box-sizing:border-box;overflow-y:auto}.browse-right-box .search{background:white;width:100%;height:200px;padding:50px;box-sizing:border-box}.browse-right-box .search .classType{display:flex;align-items:center}.browse-right-box .search .otherType{display:flex}

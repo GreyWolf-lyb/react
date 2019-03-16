@@ -1,0 +1,68 @@
+.addExam{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #f0f2f5;
+}
+.addExam h4{
+    width: 100%;
+    height: 71px;
+    line-height: 71px;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left:30px;
+}
+.testname{
+    width: 90%;
+    height: 647px;
+    margin:30px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+}
+.testname-test{
+    width: 512px;
+    height:599px;
+    margin:30px; 
+}
+.test-name{
+    width:512px;
+    height: 78px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    position: relative;
+}
+.test-name p{
+    margin:10px;
+    display: inline-block;
+}
+.test-name span:nth-child(1){
+    color: red;
+}
+.test-name span:nth-child(2){
+   margin-left:6px;
+}.test-name input{
+    width: 502px;
+    height: 40px;
+    border: 1px solid #ccc;
+    margin:10px;
+
+}
+.ant-dropdown-link{
+    width: 120px;
+    height: 30px;
+    border:1px solid #ccc;
+    margin-left:10px;
+    color: #000;
+    padding-left:100px;
+   
+}
+.text{
+    position: absolute;
+    left:20px;
+    top:48px;
+}
+.ant-select {
+margin-left:20px;
+}
